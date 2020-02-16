@@ -1,6 +1,8 @@
 import numpy as np
 import pandas as pd
 import sqlalchemy as db
+from utilities import *
+
 
 class PUBLIC_LOAN_FNMA(object):
     '''processing public loan data from Fannie Mae '''
