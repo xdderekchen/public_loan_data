@@ -46,7 +46,12 @@ def compute_amortization(principals, monthly_rates, terms,  start_period = 0, en
     out : ndarray (M, N)
 
     """
-    num_loans = 1
+    
+   
+        
+    num_loans = len(principals)
+    print("num of loans:", num_loans)
+    
     print(type(principals))
     
     if isinstance(principals, pd.Series):
