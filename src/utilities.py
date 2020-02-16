@@ -47,6 +47,8 @@ def compute_amortization(principals, monthly_rates, terms,  start_period = 0, en
 
     """
     num_loans = 1
+    print(type(principals))
+    
     if isinstance(principals, pd.Series):
        principals = principals.values
     elif np.ndim(principals) == 0:
