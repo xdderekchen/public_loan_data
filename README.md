@@ -6,7 +6,7 @@ ETL for handling FNMA and FRED public Loan data.
 
 Two implementation are presented here:
 
-1. Use **pandas**   (like class public_loan_fnma.py)
-2. Use **pyspark**  (like class public_loan_fnma_spark.py)
+1. Use **pandas**   (in class public_loan_fnma.py)
+2. Use **pyspark**  (in class public_loan_fnma_spark.py)
 
 The code is still being constructed.
