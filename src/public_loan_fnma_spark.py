@@ -67,7 +67,7 @@ class PUBLIC_LOAN_FNMA_spark(PUBLIC_LOAN_FNMA):
         
 
 
-    def read_data_acquisition (self, acquisition_file=None):
+    def read_data_acquisition (self, spark, acquisition_file=None):
           '''
           read and pre-process acqusition data
           '''
@@ -97,7 +97,7 @@ class PUBLIC_LOAN_FNMA_spark(PUBLIC_LOAN_FNMA):
           
           return None
 
-    def read_data_performance (self, performance_file=None):
+    def read_data_performance (self, spark, performance_file=None):
           '''
           read and pre-process acqusition data
           '''
