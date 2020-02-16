@@ -98,6 +98,10 @@ class PUBLIC_LOAN_FNMA_spark(PUBLIC_LOAN_FNMA):
          
           self.Loan_Data = acq_df
           
+          ts = time.time()
+          schd_upbData = self.compute_schd_upb(monthCount=12, outAsMatrix=False)
+          print("compute upb: ", showtime(ts))
+        
           return None
 
     def read_data_performance (self, spark, performance_file=None):
