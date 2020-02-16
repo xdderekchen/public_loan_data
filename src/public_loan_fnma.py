@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import sqlalchemy as db
-from utilities import *
+from src.utilities import *
 
 
 class PUBLIC_LOAN_FNMA(object):
