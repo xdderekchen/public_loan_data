@@ -13,6 +13,6 @@ Nowadays, Python programming get very popular. For my own research purpose, I pr
 * FRED SAS: http://www.freddiemac.com/fmac-resources/research/pdf/sas_scripts.zip
 
 ## Implemtation Platform.
-For the convenience, the implementation is done by Google Collaboratory Notebooks, so that we can easily try GPU and SPARK option.
-The Notebook is PubLoanPops.ipynb.
+For the convenience, the implementation is done by using Google Collaboratory Notebooks, so that we can easily try GPU and SPARK option.
+If you are interested, you may clone  the notebook **PubLoanPops.ipynb** to your google colab to run (of cause, you are expected to download data from FNMA/FRED and upload them to your Google driver). 
 
