@@ -14,5 +14,5 @@ Nowadays, Python programming get very popular. For my own research purpose, I pr
 
 ## Implemtation Platform.
 For the convenience, the implementation is done by Google Collaboratory Notebooks, so that we can easily try GPU and SPARK option.
-The Notebook is 
+The Notebook is PubLoanPops.ipynb.
 
