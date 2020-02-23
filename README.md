@@ -7,7 +7,7 @@ As part of a larger effort to increase transparency, Fannie Mae and Freddie Mac 
 ## ETL for FNMA and FRED public Loan data.
 FNMA provides sample SAS and R scripts and FRED provides sample SAS script for processing downloaded datasets.  
 
-Nowadays, Python programming get very popular. For my own research purpose, I provide 2 implementations ( **1. pandas**, **2. pyspark**) which can be used to handle both FNMA and FRED data.  
+Nowadays, Python programming get very popular. For my own research purpose, I provide 3 implementations ( **1. pandas**; **2.Dask**; **3. pyspark**) which can be used to handle both FNMA and FRED data.  
 * FNMA SAS: https://loanperformancedata.fanniemae.com/lppub-docs/FNMA_SF_Loan_Performance_sas_Primary.zip
 * FNMA R: https://loanperformancedata.fanniemae.com/lppub-docs/FNMA_SF_Loan_Performance_r_Primary.zip
 * FRED SAS: http://www.freddiemac.com/fmac-resources/research/pdf/sas_scripts.zip
